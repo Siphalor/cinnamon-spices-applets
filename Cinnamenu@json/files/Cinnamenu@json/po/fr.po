@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-26 15:40+0000\n"
-"PO-Revision-Date: 2022-01-26 18:06+0000\n"
+"POT-Creation-Date: 2023-05-01 20:28+0100\n"
+"PO-Revision-Date: 2023-05-09 17:50+0200\n"
 "Last-Translator: Claudiux <claude.clerc@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 msgid "Type to search..."
 msgstr "Tapez pour rechercher..."
@@ -25,7 +25,7 @@ msgid "Initializing"
 msgstr "Initialisation"
 
 msgid "No description available"
-msgstr "Aucune description"
+msgstr "Aucune description connue"
 
 msgid "All applications"
 msgstr "Toutes les applications"
@@ -75,7 +75,7 @@ msgid "Lock the screen"
 msgstr "Verrouille l'écran"
 
 msgid "Logout"
-msgstr "Sortir"
+msgstr "Se déconnecter"
 
 msgid "Leave the session"
 msgstr "Clôt votre session"
@@ -114,27 +114,25 @@ msgid "Browse network"
 msgstr "Parcourir le réseau"
 
 msgid "Find files..."
-msgstr "Rechercher des fichiers..."
+msgstr "Trouver des fichiers..."
 
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
 
-#, fuzzy
-#| msgid "All applications"
 msgid "Applications"
-msgstr "Toutes les applications"
+msgstr "Applications"
 
 msgid "Documents"
-msgstr ""
+msgstr "Documents"
 
 msgid "Videos"
-msgstr ""
+msgstr "Vidéos"
 
 msgid "Images"
-msgstr ""
+msgstr "Images"
 
 msgid "Music"
-msgstr ""
+msgstr "Musique"
 
 msgid "No recent Items"
 msgstr "Aucun document récent"
@@ -143,19 +141,28 @@ msgid "Click to copy"
 msgstr "Cliquer pour copier"
 
 msgid "Applications and files"
-msgstr ""
+msgstr "Applications et fichiers"
 
 msgid "Other search results"
-msgstr ""
+msgstr "Autres résultats de recherche"
+
+msgid "Browser bookmarks"
+msgstr "Signets du navigateur"
+
+msgid "Browser history"
+msgstr "Historique du navigateur"
+
+msgid "Emoji"
+msgstr "Émoji"
 
 msgid "Trash"
-msgstr ""
+msgstr "Corbeille"
 
 msgid "Error while opening file:"
-msgstr ""
+msgstr "Erreur lors de l'ouverture du fichier :"
 
 msgid "Too many entries - showing first 1000 entries only"
-msgstr "Trop d'entrées - affiche uniquement les 1000 premières entrées"
+msgstr "Trop d'entrées - affichage des 1000 premières entrées seulement"
 
 msgid "Favorites"
 msgstr "Favoris"
@@ -163,26 +170,26 @@ msgstr "Favoris"
 msgid "Recent"
 msgstr "Récents"
 
-msgid "Home folder"
-msgstr ""
+msgid "light skin tone"
+msgstr "thème clair"
+
+msgid "medium-light skin tone"
+msgstr "thème moyen-clair"
+
+msgid "medium skin tone"
+msgstr "thème moyen"
+
+msgid "medium-dark skin tone"
+msgstr "thème moyen-foncé"
+
+msgid "dark skin tone"
+msgstr "teint foncé"
+
+msgid "Remove category"
+msgstr "Supprimer cette catégorie"
 
 msgid "Reset category order"
 msgstr "Restaurer l'ordre initial des catégories"
-
-msgid "light skin tone"
-msgstr ""
-
-msgid "medium-light skin tone"
-msgstr ""
-
-msgid "medium skin tone"
-msgstr ""
-
-msgid "medium-dark skin tone"
-msgstr ""
-
-msgid "dark skin tone"
-msgstr ""
 
 msgid "This file is no longer available"
 msgstr "Ce fichier n'est plus disponible"
@@ -191,86 +198,120 @@ msgid "Open with"
 msgstr "Ouvrir avec"
 
 msgid "Other application..."
-msgstr "Autre application ..."
+msgstr "Autre application..."
+
+msgid "Add folder as category"
+msgstr "Ajouter ce dossier comme catégorie"
 
 msgid "Open containing folder"
-msgstr "Ouvrir dossier contenant"
+msgstr "Ouvrir le dossier conteneur"
 
 msgid "Move to trash"
 msgstr "Mettre à la corbeille"
 
 msgid "Error while moving file to trash:"
-msgstr ""
+msgstr "Erreur lors du déplacement du fichier vers la corbeille :"
+
+msgid "Smileys & Emotion"
+msgstr "Smileys & Émotions"
+
+msgid "People & Body"
+msgstr "Personnes & Corps"
+
+msgid "Animals & Nature"
+msgstr "Animaux & Nature"
+
+msgid "Food & Drink"
+msgstr "Nourriture & Boissons"
+
+msgid "Travel & Places"
+msgstr "Voyages & Lieux"
+
+msgid "Activities"
+msgstr "Activités"
+
+msgid "Objects"
+msgstr "Objets"
+
+msgid "Symbols"
+msgstr "Symboles"
+
+msgid "Flags"
+msgstr "Drapeaux"
 
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
 msgstr ""
+"Cet élément de menu n'est associé à aucun package. Voulez-vous le supprimer "
+"du menu ?"
 
 msgid "The following packages will be removed:"
-msgstr ""
+msgstr "Les packages suivants seront supprimés :"
 
 msgid "Packages to be removed"
-msgstr ""
+msgstr "Paquets à supprimer"
 
 #, python-format
 msgid "Cannot remove package %s as it is required by other packages."
 msgstr ""
+"Impossible de supprimer le package %s car il est requis par d'autres "
+"packages."
 
 #, python-format
 msgid "Package %s is a dependency of the following packages:"
-msgstr ""
+msgstr "Le package %s est une dépendance des packages suivants:"
 
 msgid "Open"
-msgstr "Ouverte"
+msgstr "Ouvrir"
 
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
 
 msgid "Start in"
-msgstr ""
+msgstr "Commencez dans"
 
 msgid "Select a folder"
-msgstr ""
+msgstr "Choisir un dossier"
 
 msgid "Follow symlinks"
-msgstr ""
+msgstr "Suivre les liens symboliques"
 
 msgid "Search hidden"
-msgstr ""
+msgstr "Recherche masquée"
 
 msgid "Use regular expressions"
-msgstr ""
+msgstr "Utiliser des expressions régulières"
 
 msgid "Stop"
-msgstr ""
+msgstr "Arrêter"
 
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 msgid "Path"
-msgstr ""
+msgstr "Chemin"
 
 msgid "Searching..."
-msgstr ""
+msgstr "Recherche en cours..."
 
 msgid "Search Stopped"
-msgstr ""
+msgstr "Recherche interrompue"
 
 msgid "Searching: "
-msgstr ""
+msgstr "Recherche : "
 
 msgid "Error: insufficient permissions to read folder "
-msgstr ""
+msgstr "Erreur : permissions insuffisantes pour lire le dossier "
 
 msgid "Search Completed"
-msgstr ""
+msgstr "Recherche terminée"
 
 msgid "Skipping"
-msgstr ""
+msgstr "Ignoré"
 
 msgid " - directory already searched"
-msgstr ""
+msgstr " - dossier déjà parcouru"
 
 msgid "Cinnamenu"
 msgstr "Cinnamenu"
@@ -279,15 +320,14 @@ msgid ""
 "A flexible menu with grid or list layout options, file browser and emoji "
 "search."
 msgstr ""
+"Un menu flexible avec des options de disposition de grille ou de liste, un "
+"navigateur de fichiers et une recherche d'emojis."
 
 msgid "Behavior"
 msgstr "Comportement"
 
 msgid "Appearance"
 msgstr "Apparence"
-
-msgid "Layout and Content"
-msgstr "Mise en page et contenu"
 
 msgid "Search Providers"
 msgstr "Moteurs de Recherche"
@@ -296,7 +336,7 @@ msgid "No search provider extensions found"
 msgstr "Aucune extension pour moteur de recherche n'a été installée"
 
 msgid "Panel"
-msgstr "Tableau de bord"
+msgstr "Panneau"
 
 msgid "Menu"
 msgstr "Menu"
@@ -320,28 +360,22 @@ msgid "Use a custom icon in the panel"
 msgstr "Personnaliser l'icône de cette applet affichée dans le panneau"
 
 msgid "Panel icon"
-msgstr "Icône affichée sur le tableau de bord"
+msgstr "Icône affichée sur le panneau"
 
 msgid "Panel text"
-msgstr "Texte affiché sur le tableau de bord"
+msgstr "Texte affiché sur le panneau"
 
 msgid "Text to show beside the panel icon"
 msgstr "Texte à afficher à côté de l'icône du panneau"
 
-#, fuzzy
-#| msgid "Category icon size"
 msgid "Category icon size (pixels)"
-msgstr "Taille des icônes des catégories du menu"
+msgstr "Taille des icônes des catégories du menu (pixels)"
 
-#, fuzzy
-#| msgid "Applications list icon size"
 msgid "Applications list icon size (pixels)"
-msgstr "Taille des icônes pour la vue en liste"
+msgstr "Taille des icônes pour la vue en liste (pixels)"
 
-#, fuzzy
-#| msgid "Applications grid icon size"
 msgid "Applications grid icon size (pixels)"
-msgstr "Taille des icônes pour la vue en grille"
+msgstr "Taille des icônes pour la vue en grille (pixels)"
 
 msgid "Keyboard shortcut to open and close the menu"
 msgstr "Raccourci-clavier pour ouvrir et fermer le menu"
@@ -362,11 +396,10 @@ msgid "Use menu animations"
 msgstr "Animer l'ouverture et la fermeture du menu"
 
 msgid "Animate the menu on open and close"
-msgstr ""
-"Autorise les effets d'animation lors de l'ouverture ou la fermeture du menu"
+msgstr "Animer le menu lors de son ouverture ou sa fermeture"
 
 msgid "Activate categories on click"
-msgstr "Ouvrir les catégories avec un clic"
+msgstr "Ouvrir les catégories en cliquant"
 
 msgid "Activate categories on click instead of on hover"
 msgstr ""
@@ -385,6 +418,8 @@ msgid ""
 "Show your browser's web bookmarks in the menu.\n"
 "Note: Install package gir1.2-gda-5.0 to read firefox bookmarks."
 msgstr ""
+"Affichez les signets Web de votre navigateur dans le menu.\n"
+"Remarque : Installez le package gir1.2-gda-5.0 pour lire les signets Firefox."
 
 msgid "Enable searching of open windows"
 msgstr "Activer la recherche des fenêtres ouvertes"
@@ -394,7 +429,7 @@ msgstr "Activer les moteurs de recherche"
 
 msgid "Include search provider results in searches"
 msgstr ""
-"Ajoute également les résultats des moteurs de recherche à ceux de vos "
+"Ajouter également les résultats des moteurs de recherche à ceux de vos "
 "recherches dans le menu"
 
 msgid "Example Search Providers"
@@ -410,7 +445,7 @@ msgid "Grid"
 msgstr "Grille"
 
 msgid "Always open the menu with this category selected"
-msgstr ""
+msgstr "Toujours ouvrir le menu avec cette catégorie sélectionnée"
 
 msgid "columns"
 msgstr "colonnes"
@@ -419,16 +454,16 @@ msgid "Number of columns in apps grid"
 msgstr "Nombre de colonnes de la grille des applications"
 
 msgid "Show bookmarks and places"
-msgstr "Inclure les signets et les emplacements"
+msgstr "Afficher les signets et les emplacements"
 
 msgid "Show bookmarks and places category in the menu"
-msgstr "Affiche également dans le menu vos signets et vos emplacements"
+msgstr "Afficher dans le menu vos signets et vos emplacements"
 
 msgid "Show application icons"
-msgstr "Montrer les icônes des applications"
+msgstr "Afficher les icônes des applications"
 
 msgid "Show category icons"
-msgstr "Montrer les icônes des catégories"
+msgstr "Afficher les icônes des catégories"
 
 msgid "Show application descriptions under titles"
 msgstr "Afficher la description des applications sous leur titre"
@@ -442,10 +477,11 @@ msgstr "Délai avant l'affichage de l'infobulle"
 msgid "Use a custom menu height"
 msgstr "Utiliser une hauteur de menu personnalisée"
 
-#, fuzzy
-#| msgid "Custom menu height"
 msgid "Custom menu height (pixels)"
-msgstr "Hauteur de menu personnalisée"
+msgstr "Hauteur de menu personnalisée (pixels)"
+
+msgid "Tips"
+msgstr "Astuces"
 
 msgid "Applications view mode"
 msgstr "Mode d'affichage des applications"
@@ -455,23 +491,8 @@ msgstr ""
 "Vous permet de faire afficher les applications sous forme de liste (une "
 "seule colonne) ou de grille (lignes et colonnes)"
 
-msgid "Application description placement"
-msgstr "Emplacement de la description d'une application"
-
-msgid "Tooltips"
-msgstr "Info-bulles"
-
-msgid "Under titles"
-msgstr "Sous les titres"
-
-msgid "None"
-msgstr "Aucun"
-
-msgid "Choose where to show application descriptions"
-msgstr "Vous permet de choisir l'emplacement des descriptions des applications"
-
 msgid "Sidebar location"
-msgstr ""
+msgstr "Emplacement de la barre latérale"
 
 msgid "Top"
 msgstr "Haut"
@@ -486,40 +507,63 @@ msgid "Right"
 msgstr "Droite"
 
 msgid "Choose where to show the sidebar"
-msgstr ""
-
-msgid ""
-"\n"
-"Info/tip: Drag on the menu edge to change the menu size.\n"
-msgstr ""
+msgstr "Choisissez où afficher la barre latérale"
 
 msgid "Show favorites on sidebar"
-msgstr ""
+msgstr "Afficher les favoris dans la barre latérale"
 
-#, fuzzy
-#| msgid "Show your favorite app icons next to the session buttons"
-msgid "Show your favorite app and file icons on the sidebar"
+msgid "None"
+msgstr "Aucun"
+
+msgid "Apps only"
+msgstr "Applications seulement"
+
+msgid "Files only"
+msgstr "Fichiers seulement"
+
+msgid "Apps and files"
+msgstr "Applications et fichiers"
+
+msgid "Show your favorite apps and file icons on the sidebar"
 msgstr ""
-"Affiche les icônes de vos applications favorites à côté des boutons de "
-"session"
+"Affichez vos applications et vos icônes de fichiers préférées sur la barre "
+"latérale"
+
+msgid "Application description placement"
+msgstr "Emplacement de la description d'une application"
+
+msgid "Tooltips"
+msgstr "Info-bulles"
+
+msgid "Under titles"
+msgstr "Sous les titres"
+
+msgid "Choose where to show application descriptions"
+msgstr "Vous permet de choisir l'emplacement des descriptions des applications"
 
 msgid "Show recent items"
-msgstr ""
+msgstr "Afficher les éléments récents"
 
 msgid "Show recent items category in the menu"
-msgstr ""
+msgstr "Afficher la catégorie des éléments récents dans le menu"
 
 msgid "Show favorite apps category"
-msgstr ""
+msgstr "Afficher la catégorie des Applications préférées"
 
 msgid "Show your favorite apps category in the menu"
-msgstr ""
+msgstr "Affichez votre catégorie d'applications préférées dans le menu"
 
 msgid "Show home folder"
 msgstr "Afficher le dossier de départ"
 
 msgid "Show home folder category in the menu"
-msgstr ""
+msgstr "Afficher la catégorie de dossier de départ dans le menu"
+
+msgid "Show emoji category"
+msgstr "Afficher la catégorie Emoji"
+
+msgid "Show emoji category in the menu"
+msgstr "Afficher la catégorie Emoji dans le menu"
 
 msgid "Last used category"
 msgstr "Dernière catégorie utilisée"
@@ -531,34 +575,54 @@ msgid "Show hidden files"
 msgstr "Montrer les fichiers cachés"
 
 msgid "Show hidden files in folder view"
-msgstr ""
+msgstr "Afficher les fichiers cachés dans la vue des dossiers"
 
-#, fuzzy
-#| msgid "Enable emoji search"
 msgid "Emoji search"
-msgstr "Activer la recherche d'emojis"
+msgstr "Recherche d'emojis"
 
 msgid "Show emojis in search results"
-msgstr ""
+msgstr "Afficher les emojis dans les résultats de recherche"
 
 msgid "Web search option"
 msgstr "Option de recherche sur le Web"
 
 msgid "Show an internet search option in search results"
 msgstr ""
+"Afficher une option de recherche Internet dans les résultats de recherche"
+
+msgid "Web search suggestions"
+msgstr "Suggestions de recherche sur le Web"
+
+msgid ""
+"With web search option, also show search suggestions. (Note: Search "
+"suggestions are provided by DuckDuckGo)"
+msgstr ""
+"Avec l'option de recherche sur le Web, affichez également les suggestions de "
+"recherche. (Remarque : les suggestions de recherche sont fournies par "
+"DuckDuckGo)"
 
 msgid "Search home folder"
 msgstr "Rechercher dans le dossier de départ"
 
-#, fuzzy
-#| msgid "When searching, also search home folder for files"
 msgid "When searching, also search my home folder for files"
 msgstr ""
 "Lors de la recherche, recherchez également les fichiers dans le dossier de "
 "départ"
 
-msgid "Web bookmarks search"
+msgid "Web history search"
+msgstr "Recherche dans l'historique Web"
+
+msgid ""
+"When searching, also search my browser's history (Google Chrome, Chromium, "
+"Opera, Vivaldi, Brave)\n"
+"Note: Firefox history is not currently supported."
 msgstr ""
+"Lors de la recherche, rechercher également l'historique de mon navigateur "
+"(Google Chrome, Chromium, Opera, Vivaldi, Brave)\n"
+"Remarque : l'historique de Firefox n'est actuellement pas pris en charge."
+
+msgid "Web bookmarks search"
+msgstr "Recherche de signets Web"
 
 msgid ""
 "When searching, also search my browser's web bookmarks (Google Chrome, "
@@ -567,15 +631,38 @@ msgid ""
 "gda-5.0 (Debian based distributions inc. Ubuntu & Linux Mint) or package "
 "libgda (Arch based distributions) and restart your computer."
 msgstr ""
+"Lors de la recherche, rechercher également les signets Web de mon navigateur "
+"(Google Chrome, Firefox, Chromium, Opera, Vivaldi, Brave)\n"
+"Remarque : Pour rechercher des signets Firefox, vous devrez installer le "
+"package gir1.2-gda-5.0 (distributions basées sur Debian, y compris Ubuntu et "
+"Linux Mint) ou le package libgda (distributions basées sur Arch) et "
+"redémarrer votre ordinateur."
 
 msgid "Wikipedia search"
-msgstr ""
+msgstr "Recherche dans Wikipédia"
 
 msgid "Show some Wikipedia results"
-msgstr ""
+msgstr "Afficher quelques résultats Wikipédia"
 
 msgid "Wikipedia language"
+msgstr "Langue Wikipédia"
+
+msgid ""
+"\n"
+"Note: Some search options can still be used even if you have not enabled "
+"them here by prefixing your search term.\n"
+"For example: to search for an emoji, type 'e heart' to find heart emojis. "
+"Likewise, use prefixes 'f ' for file search, 'h ' for web history and 'b ' "
+"for web bookmarks search.\n"
 msgstr ""
+"\n"
+"Remarque : Certaines options de recherche peuvent toujours être utilisées "
+"même si vous ne les avez pas activées ici en préfixant votre terme de "
+"recherche.\n"
+"Par exemple : pour rechercher un émoji, tapez « e coeur » pour trouver des "
+"émojis de cœur. De même, utilisez les préfixes \"f\" pour la recherche de "
+"fichiers, \"h\" pour l'historique Web et \"b\" pour la recherche dans vos "
+"signets Web.\n"
 
 msgid "Use a custom icon size"
 msgstr "Utiliser une taille d'icône personnalisée"
@@ -583,32 +670,54 @@ msgstr "Utiliser une taille d'icône personnalisée"
 msgid "Use a custom size for the panel icon"
 msgstr "Utilisez une taille personnalisée pour l'icône du panneau"
 
-#, fuzzy
-#| msgid "Panel icon size"
 msgid "Panel icon size (pixels)"
-msgstr "Taille de l'icône du panneau"
+msgstr "Taille de l'icône du panneau (pixels)"
 
 msgid "Choose a custom size for the panel icon"
-msgstr ""
+msgstr "Choisissez une taille personnalisée pour l'icône du panneau"
 
 msgid "Sidebar icon size (pixels)"
-msgstr ""
+msgstr "Taille de l'icône de la barre latérale (pixels)"
 
-#, fuzzy
-#| msgid "Use session buttons box style"
 msgid "Use sidebar box style"
-msgstr "Afficher un cadre autour des boutons de session"
+msgstr "Utiliser le style de boîte de la barre latérale"
 
-#, fuzzy
-#| msgid "Use session buttons box style"
 msgid "Use a sidebar box style"
-msgstr "Afficher un cadre autour des boutons de session"
+msgstr "Utiliser un style de boîte de barre latérale"
 
 msgid "Use tile style"
-msgstr ""
+msgstr "Utiliser le style de mosaïque"
 
 msgid ""
 "Use a tile style for the application buttons (Note: may not work on some "
 "themes)"
 msgstr ""
+"Utilisez un style de mosaïque pour les boutons de l'application (Remarque : "
+"peut ne pas fonctionner sur certains thèmes)"
 
+msgid ""
+"\n"
+"• Drag on the menu edge to change the menu size."
+msgstr ""
+"\n"
+"• Faites glisser le bord du menu pour modifier la taille du menu."
+
+msgid ""
+"\n"
+"• Drag and drop menu categories to change their order."
+msgstr ""
+"\n"
+"• Faites glisser les catégories pour modifier leur ordre."
+
+msgid ""
+"\n"
+"• Right click on any folder to add it as a menu category.\n"
+msgstr ""
+"\n"
+"Clic-droit sur un dossier pour en faire une catégorie du menu.\n"
+
+#~ msgid "Home folder"
+#~ msgstr "Dossier d'accueil"
+
+#~ msgid "Layout and Content"
+#~ msgstr "Mise en page et contenu"

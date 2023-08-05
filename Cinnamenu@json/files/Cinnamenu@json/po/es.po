@@ -7,16 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-26 15:40+0000\n"
-"PO-Revision-Date: 2022-01-26 15:48+0000\n"
+"POT-Creation-Date: 2023-05-01 20:28+0100\n"
+"PO-Revision-Date: 2023-06-10 17:42-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.3.1\n"
 
 msgid "Type to search..."
 msgstr "Escriba para buscar..."
@@ -117,24 +116,22 @@ msgid "Find files..."
 msgstr "Buscar archivos..."
 
 msgid "Please wait..."
-msgstr "Por favor espera..."
+msgstr "Por favor espere..."
 
-#, fuzzy
-#| msgid "All applications"
 msgid "Applications"
-msgstr "Todas las aplicaciones"
+msgstr "Aplicaciones"
 
 msgid "Documents"
-msgstr ""
+msgstr "Documentos"
 
 msgid "Videos"
-msgstr ""
+msgstr "Videos"
 
 msgid "Images"
-msgstr ""
+msgstr "Imágenes"
 
 msgid "Music"
-msgstr ""
+msgstr "Música"
 
 msgid "No recent Items"
 msgstr "No hay elementos recientes"
@@ -143,10 +140,19 @@ msgid "Click to copy"
 msgstr "Haga clic para copiar"
 
 msgid "Applications and files"
-msgstr ""
+msgstr "Aplicaciones y archivos"
 
 msgid "Other search results"
-msgstr ""
+msgstr "Otros resultados de búsqueda"
+
+msgid "Browser bookmarks"
+msgstr "Marcadores del navegador"
+
+msgid "Browser history"
+msgstr "Historial del navegador"
+
+msgid "Emoji"
+msgstr "Emoticones"
 
 msgid "Trash"
 msgstr "Papelera"
@@ -163,12 +169,6 @@ msgstr "Favoritos"
 msgid "Recent"
 msgstr "Reciente"
 
-msgid "Home folder"
-msgstr "Directorio de inicio"
-
-msgid "Reset category order"
-msgstr "Restablecer orden de categoría"
-
 msgid "light skin tone"
 msgstr "tono de piel claro"
 
@@ -184,6 +184,12 @@ msgstr "tono de piel medio-oscuro"
 msgid "dark skin tone"
 msgstr "tono de piel oscuro"
 
+msgid "Remove category"
+msgstr "Eliminar categoría"
+
+msgid "Reset category order"
+msgstr "Restaurar el orden de las categorías"
+
 msgid "This file is no longer available"
 msgstr "Este archivo no está disponible"
 
@@ -191,7 +197,10 @@ msgid "Open with"
 msgstr "Abrir con"
 
 msgid "Other application..."
-msgstr "Otra aplicación ..."
+msgstr "Otra aplicación..."
+
+msgid "Add folder as category"
+msgstr "Añadir carpeta como categoría"
 
 msgid "Open containing folder"
 msgstr "Abrir la carpeta que lo contiene"
@@ -202,12 +211,39 @@ msgstr "Mover a la papelera"
 msgid "Error while moving file to trash:"
 msgstr "Error al mover el archivo a la papelera:"
 
+msgid "Smileys & Emotion"
+msgstr "Sonrisas y Emociones"
+
+msgid "People & Body"
+msgstr "Gente y Cuerpo"
+
+msgid "Animals & Nature"
+msgstr "Animales y Naturaleza"
+
+msgid "Food & Drink"
+msgstr "Comida y Bebida"
+
+msgid "Travel & Places"
+msgstr "Viajes y Lugares"
+
+msgid "Activities"
+msgstr "Actividades"
+
+msgid "Objects"
+msgstr "Objetos"
+
+msgid "Symbols"
+msgstr "Símbolos"
+
+msgid "Flags"
+msgstr "Banderas"
+
 msgid ""
 "This menu item is not associated to any package. Do you want to remove it "
 "from the menu anyway?"
 msgstr ""
-"Este elemento del menú no está asociado a ningún paquete. ¿Quiere eliminarlo "
-"del menú de todos modos?"
+"Este elemento del menú no está asociado a ningún paquete. ¿Quiere "
+"eliminarlo del menú de todos modos?"
 
 msgid "The following packages will be removed:"
 msgstr "Se eliminarán los siguientes paquetes:"
@@ -283,16 +319,13 @@ msgid ""
 "search."
 msgstr ""
 "Un menú flexible con opciones de diseño de cuadrícula o lista, navegador de "
-"archivos y búsqueda de emojis."
+"archivos y búsqueda de emoticones."
 
 msgid "Behavior"
 msgstr "Comportamiento"
 
 msgid "Appearance"
 msgstr "Apariencia"
-
-msgid "Layout and Content"
-msgstr "Disposición y contenido"
 
 msgid "Search Providers"
 msgstr "Proveedores de búsqueda"
@@ -319,10 +352,10 @@ msgid "Open the menu editor"
 msgstr "Abrir el editor del menú"
 
 msgid "Use a custom icon"
-msgstr "Usar icono personalizado"
+msgstr "Usar ícono personalizado"
 
 msgid "Use a custom icon in the panel"
-msgstr "Utilice un icono personalizado en el panel"
+msgstr "Utilice un ícono personalizado en el panel"
 
 msgid "Panel icon"
 msgstr "Icono del panel"
@@ -331,25 +364,25 @@ msgid "Panel text"
 msgstr "Texto del panel"
 
 msgid "Text to show beside the panel icon"
-msgstr "Texto para mostrar al lado del icono del panel"
+msgstr "Texto para mostrar al lado del ícono del panel"
 
 msgid "Category icon size (pixels)"
-msgstr "Tamaño de los iconos de las categorías (pixeles)"
+msgstr "Tamaño de los íconos de las categorías (pixeles)"
 
 msgid "Applications list icon size (pixels)"
-msgstr "Tamaño de icono de las aplicaciones de la lista (pixeles)"
+msgstr "Tamaño de ícono de las aplicaciones de la lista (pixeles)"
 
 msgid "Applications grid icon size (pixels)"
-msgstr "Tamaño de icono de las aplicaciones de la cuadrícula (pixeles)"
+msgstr "Tamaño de ícono de las aplicaciones de la cuadrícula (pixeles)"
 
 msgid "Keyboard shortcut to open and close the menu"
 msgstr "Atajo de teclado para abrir y cerrar el menú"
 
 msgid "Open menu on hover"
-msgstr "Abrir menú al pasar el mouse por encima"
+msgstr "Abrir menú al pasar el ratón por encima"
 
 msgid "Open the menu when I move my mouse over the panel icon"
-msgstr "Abre el menú cuando muevo el mouse sobre el ícono del panel"
+msgstr "Abre el menú cuando muevo el ratón sobre el ícono del panel"
 
 msgid "milliseconds"
 msgstr "milisegundos"
@@ -425,10 +458,10 @@ msgid "Show bookmarks and places category in the menu"
 msgstr "Muestra marcadores y la categoría de lugares en el menú"
 
 msgid "Show application icons"
-msgstr "Mostrar los iconos de las aplicaciones"
+msgstr "Mostrar los íconos de las aplicaciones"
 
 msgid "Show category icons"
-msgstr "Mostrar iconos de las categorías"
+msgstr "Mostrar íconos de las categorías"
 
 msgid "Show application descriptions under titles"
 msgstr "Mostrar descripción de las aplicaciones debajo del título"
@@ -445,26 +478,14 @@ msgstr "Usar altura del menú personalizada"
 msgid "Custom menu height (pixels)"
 msgstr "Altura del menú personalizada (pixeles)"
 
+msgid "Tips"
+msgstr "Consejos"
+
 msgid "Applications view mode"
 msgstr "Modo de vista de aplicaciones"
 
 msgid "View applications as list or grid"
 msgstr "Ver aplicaciones como lista o cuadrícula"
-
-msgid "Application description placement"
-msgstr "Manera de mostrar la descripción de la aplicación"
-
-msgid "Tooltips"
-msgstr "Al pasar el mouse sobre la aplicación"
-
-msgid "Under titles"
-msgstr "Bajo títulos"
-
-msgid "None"
-msgstr "No mostrar"
-
-msgid "Choose where to show application descriptions"
-msgstr "Elija dónde mostrar las descripciones de las aplicaciones"
 
 msgid "Sidebar location"
 msgstr "Ubicación de la barra lateral"
@@ -484,19 +505,35 @@ msgstr "Derecha"
 msgid "Choose where to show the sidebar"
 msgstr "Elija dónde mostrar la barra lateral"
 
-msgid ""
-"\n"
-"Info/tip: Drag on the menu edge to change the menu size.\n"
-msgstr ""
-"\n"
-"Información/sugerencia: arrastre en el borde del menú para cambiar el tamaño "
-"del menú.\n"
-
 msgid "Show favorites on sidebar"
 msgstr "Mostrar categoría de aplicaciones favoritas en el menú"
 
-msgid "Show your favorite app and file icons on the sidebar"
+msgid "None"
+msgstr "No mostrar"
+
+msgid "Apps only"
+msgstr "Sólo aplicaciones"
+
+msgid "Files only"
+msgstr "Sólo archivos"
+
+msgid "Apps and files"
+msgstr "Aplicaciones y archivos"
+
+msgid "Show your favorite apps and file icons on the sidebar"
 msgstr "Muestra sus aplicaciones favoritas en el menú"
+
+msgid "Application description placement"
+msgstr "Manera de mostrar la descripción de la aplicación"
+
+msgid "Tooltips"
+msgstr "Al pasar el mouse sobre la aplicación"
+
+msgid "Under titles"
+msgstr "Bajo títulos"
+
+msgid "Choose where to show application descriptions"
+msgstr "Elija dónde mostrar las descripciones de las aplicaciones"
 
 msgid "Show recent items"
 msgstr "Mostrar elementos recientes"
@@ -516,6 +553,12 @@ msgstr "Mostrar carpeta de inicio"
 msgid "Show home folder category in the menu"
 msgstr "Muestra la categoría de carpeta de inicio en el menú"
 
+msgid "Show emoji category"
+msgstr "Mostrar categoría de emoticones"
+
+msgid "Show emoji category in the menu"
+msgstr "Mostrar categoría de emoticones en el menú"
+
 msgid "Last used category"
 msgstr "Última categoría utilizada"
 
@@ -529,10 +572,10 @@ msgid "Show hidden files in folder view"
 msgstr "Muestra los archivos ocultos en la vista de carpeta"
 
 msgid "Emoji search"
-msgstr "Habilitar la búsqueda de emojis"
+msgstr "Habilitar la búsqueda de emoticones"
 
 msgid "Show emojis in search results"
-msgstr "Muestra emojis en los resultados de búsqueda"
+msgstr "Muestra emoticones en los resultados de búsqueda"
 
 msgid "Web search option"
 msgstr "Opción de búsqueda web"
@@ -541,11 +584,33 @@ msgid "Show an internet search option in search results"
 msgstr ""
 "Muestra una opción de búsqueda en Internet en los resultados de búsqueda"
 
+msgid "Web search suggestions"
+msgstr "Sugerencias de búsqueda en Internet"
+
+msgid ""
+"With web search option, also show search suggestions. (Note: Search "
+"suggestions are provided by DuckDuckGo)"
+msgstr ""
+"Con la opción de búsqueda en la web, también muestra sugerencias de "
+"búsqueda. (Nota: Esto utiliza la API de búsqueda de DuckDuckGo)"
+
 msgid "Search home folder"
 msgstr "Buscar carpeta de inicio"
 
 msgid "When searching, also search my home folder for files"
 msgstr "Al buscar, también busque archivos en la carpeta de inicio"
+
+msgid "Web history search"
+msgstr "Búsqueda de historial web"
+
+msgid ""
+"When searching, also search my browser's history (Google Chrome, Chromium, "
+"Opera, Vivaldi, Brave)\n"
+"Note: Firefox history is not currently supported."
+msgstr ""
+"Al buscar, busque también en el historial de mi navegador (Google Chrome, "
+"Chromium, Opera, Vivaldi, Brave)\n"
+"Nota: el historial de Firefox no es compatible actualmente."
 
 msgid "Web bookmarks search"
 msgstr "Búsqueda de marcadores web"
@@ -573,20 +638,36 @@ msgstr "Muestra algunos resultados de Wikipedia"
 msgid "Wikipedia language"
 msgstr "Idioma de Wikipedia"
 
+msgid ""
+"\n"
+"Note: Some search options can still be used even if you have not enabled "
+"them here by prefixing your search term.\n"
+"For example: to search for an emoji, type 'e heart' to find heart emojis. "
+"Likewise, use prefixes 'f ' for file search, 'h ' for web history and 'b ' "
+"for web bookmarks search.\n"
+msgstr ""
+"\n"
+"Nota: Algunas opciones de búsqueda aún se pueden usar incluso si no las ha "
+"habilitado aquí agregando un prefijo a su término de búsqueda.\n"
+"Por ejemplo: para buscar un emoticones, escriba 'e heart' para buscar "
+"emojis de corazón. Del mismo modo, use los prefijos 'f' para la búsqueda de "
+"archivos, 'h' para el historial web y 'b' para la búsqueda de marcadores "
+"web.\n"
+
 msgid "Use a custom icon size"
-msgstr "Utilice un tamaño de icono personalizado"
+msgstr "Utilice un tamaño de ícono personalizado"
 
 msgid "Use a custom size for the panel icon"
-msgstr "Utilice un tamaño personalizado para el icono del panel"
+msgstr "Utilice un tamaño personalizado para el ícono del panel"
 
 msgid "Panel icon size (pixels)"
-msgstr "Tamaño del icono del panel (pixeles)"
+msgstr "Tamaño del ícono del panel (pixeles)"
 
 msgid "Choose a custom size for the panel icon"
-msgstr "Elija un tamaño personalizado para el icono del panel"
+msgstr "Elija un tamaño personalizado para el ícono del panel"
 
 msgid "Sidebar icon size (pixels)"
-msgstr "Tamaño del icono de la barra lateral (pixeles)"
+msgstr "Tamaño del ícono de la barra lateral (pixeles)"
 
 msgid "Use sidebar box style"
 msgstr "Usar estilo de cuadro de botones de sesión"
@@ -603,3 +684,26 @@ msgid ""
 msgstr ""
 "Utilice un estilo de mosaico para los botones de la aplicación (Nota: puede "
 "que no funcione en algunos temas)"
+
+msgid ""
+"\n"
+"• Drag on the menu edge to change the menu size."
+msgstr ""
+"\n"
+"• Arrastre sobre el borde del menú para cambiar su tamaño."
+
+msgid ""
+"\n"
+"• Drag and drop menu categories to change their order."
+msgstr ""
+"\n"
+"• Arrastre y suelte las categorías del menú para cambiar su orden."
+
+msgid ""
+"\n"
+"• Folders can be set up and removed as menu categories by right-clicking on "
+"them.\n"
+msgstr ""
+"\n"
+"• Las carpetas pueden configurarse y eliminarse como categorías de menú "
+"haciendo clic con el botón derecho del ratón sobre ellas.\n"

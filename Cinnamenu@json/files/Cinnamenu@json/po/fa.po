@@ -477,10 +477,10 @@ msgid "Bottom"
 msgstr "پایین"
 
 msgid "Left"
-msgstr "چپ"
+msgstr "راست"
 
 msgid "Right"
-msgstr "راست"
+msgstr "چپ"
 
 msgid "Choose where to show the sidebar"
 msgstr "مکان نمایش نوار کناری را انتخاب کنید"
@@ -495,7 +495,7 @@ msgstr ""
 msgid "Show favorites on sidebar"
 msgstr "نمایش مورد علاقه‌ها در نوار کناری"
 
-msgid "Show your favorite app and file icons on the sidebar"
+msgid "Show your favorite apps and file icons on the sidebar"
 msgstr "نمایش نقشک کاره‌ها و پرونده‌های مورد علاقه‌تان در نوار کناری"
 
 msgid "Show recent items"
